@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Multiplication Graph</title>
+  <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <meta name="description" content="Visual illustration of learning trajectory of multiplication table">
+  <meta name="author" content="Alyaxey Yaskevich">
+  <style>
+.link {
+  stroke: #999;
+}
+.node text {
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	pointer-events: none;
+}
+.dup{
+fill: white;
+opacity: 0.3;
+}
+
+.same {
+stroke-width: 4;
+stroke: orange;
+}
+
+.children{
+fill:red;
+stroke:red;
+}
+
+html,
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.link {
+  stroke: #ccc;
+}
+
+/*.node {
+  fill: steelblue;
+}
+*/
+svg{
+font-family: 'PT Sans';
+}
+  </style>
+  <!-- <link href="example-styles.css" type="text/css" rel="stylesheet" media="screen,projection"/> -->
+</head>
+
+
+
+<body>  
+  <script src="graph.js"></script>
+  
+</body>
